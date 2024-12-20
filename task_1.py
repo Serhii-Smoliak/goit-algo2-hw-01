@@ -14,5 +14,5 @@ def find_min_max(arr):
 
 
 # Приклад використання
-# arr = [3, 1, 4, 1, 5, 8, 2, 6, 5]
-# print(find_min_max(arr))  # Виведе (1, 8)
+arr = [3, 1, 4, 1, 5, 8, 2, 6, 5]
+print(find_min_max(arr))  # Виведе (1, 8)

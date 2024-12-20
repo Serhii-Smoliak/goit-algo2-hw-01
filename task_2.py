@@ -19,6 +19,6 @@ def quick_select(arr, k):
         return quick_select(greater, k - len(less) - len(equal))
 
 # Приклад використання
-# arr = [3, 2, 1, 5, 4, 6, 7]
-# k = 3
-# print(quick_select(arr, k))  # Виведе 3 (3-й найменший елемент)
+arr = [3, 2, 1, 5, 4, 6, 7]
+k = 3
+print(quick_select(arr, k))  # Виведе 3 (3-й найменший елемент)
